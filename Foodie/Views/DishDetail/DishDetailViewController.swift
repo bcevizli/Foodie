@@ -15,9 +15,19 @@ class DishDetailViewController: UIViewController {
     @IBOutlet weak var dishDescriptionLabel: UILabel!
     @IBOutlet weak var nameField: UITextField!
     
+    var dish: Dish!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        populateView()
+    }
+    
+    private func populateView() {
+        dishImageView.kf.setImage(with: dish.image?.asUrl)
+        dishTitleLabel.text = dish.name
+        dishDescriptionLabel.text = dish.description
+        dishCaloriesLabel.text = dish.formattedCalories
+        
     }
     
     @IBAction func placeOrderButtonTapped(_ sender: UIButton) {

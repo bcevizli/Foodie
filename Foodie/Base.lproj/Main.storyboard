@@ -341,7 +341,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gWC-sW-xEZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gWC-sW-xEZ">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="593.66666666666663"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Y-pf-FI7">
@@ -432,6 +432,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="twc-5a-TmA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2707.6335877862593" y="3.5211267605633805"/>
+        </scene>
+        <!--List Dishes View Controller-->
+        <scene sceneID="Oze-lL-Rl6">
+            <objects>
+                <viewController storyboardIdentifier="ListDishesViewController" id="77n-mi-5I7" customClass="ListDishesViewController" customModule="Foodie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2ic-No-xbQ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mCJ-gF-5i6">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="77n-mi-5I7" id="vHj-G7-fvo"/>
+                                    <outlet property="delegate" destination="77n-mi-5I7" id="4AL-lf-oRr"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bSP-fw-04z"/>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="mCJ-gF-5i6" firstAttribute="trailing" secondItem="bSP-fw-04z" secondAttribute="trailing" id="C8y-pI-Mr5"/>
+                            <constraint firstAttribute="bottom" secondItem="mCJ-gF-5i6" secondAttribute="bottom" id="QGL-4t-16y"/>
+                            <constraint firstItem="mCJ-gF-5i6" firstAttribute="leading" secondItem="bSP-fw-04z" secondAttribute="leading" id="Snb-kB-4m0"/>
+                            <constraint firstItem="mCJ-gF-5i6" firstAttribute="top" secondItem="bSP-fw-04z" secondAttribute="top" id="zhJ-5h-Jho"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="mCJ-gF-5i6" id="jXf-ZS-lge"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DWE-8U-oq4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3588.5496183206105" y="3.5211267605633805"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cUQ-Ra-UpQ">
