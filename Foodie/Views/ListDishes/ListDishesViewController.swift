@@ -39,6 +39,10 @@ extension ListDishesViewController: UITableViewDelegate, UITableViewDataSource {
         cell.setup(dish: dishes[indexPath.row])
         return cell
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let controller = DishDetailViewController.instantiate()
+        controller.dish = dishes[indexPath.row]
+        navigationController?.pushViewController(controller, animated: true)
+    }
     
 }
