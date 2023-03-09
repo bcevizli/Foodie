@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99B6E8B6B9228B63A11EE1AF /* Pods_Foodie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311739D39D6E245B48DE056A /* Pods_Foodie.framework */; };
 		EAEC924129B8E59000A50DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC924029B8E59000A50DF2 /* AppDelegate.swift */; };
 		EAEC924329B8E59000A50DF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC924229B8E59000A50DF2 /* SceneDelegate.swift */; };
 		EAEC924829B8E59100A50DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEC924629B8E59100A50DF2 /* Main.storyboard */; };
@@ -17,9 +18,17 @@
 		EAEC925E29B9104400A50DF2 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC925D29B9104400A50DF2 /* OnboardingSlide.swift */; };
 		EAEC926029B914FA00A50DF2 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC925F29B914FA00A50DF2 /* OnboardingCollectionViewCell.swift */; };
 		EAEC926329B9635200A50DF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC926229B9635200A50DF2 /* HomeViewController.swift */; };
+		EAEC926829B969B800A50DF2 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC926629B969B800A50DF2 /* CategoryCollectionViewCell.swift */; };
+		EAEC926929B969B800A50DF2 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEC926729B969B800A50DF2 /* CategoryCollectionViewCell.xib */; };
+		EAEC926B29B9F49F00A50DF2 /* DishCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC926A29B9F49F00A50DF2 /* DishCategory.swift */; };
+		EAEC926D29B9FBDA00A50DF2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC926C29B9FBDA00A50DF2 /* String+Extension.swift */; };
+		EAEC927029BA008300A50DF2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC926F29BA008300A50DF2 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		311739D39D6E245B48DE056A /* Pods_Foodie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E13BE6ADCA88567B357BE7 /* Pods-Foodie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie.release.xcconfig"; path = "Target Support Files/Pods-Foodie/Pods-Foodie.release.xcconfig"; sourceTree = "<group>"; };
+		49B9F13B0912227DD58FEAB8 /* Pods-Foodie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie.debug.xcconfig"; path = "Target Support Files/Pods-Foodie/Pods-Foodie.debug.xcconfig"; sourceTree = "<group>"; };
 		EAEC923D29B8E59000A50DF2 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEC924029B8E59000A50DF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAEC924229B8E59000A50DF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +41,11 @@
 		EAEC925D29B9104400A50DF2 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		EAEC925F29B914FA00A50DF2 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		EAEC926229B9635200A50DF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EAEC926629B969B800A50DF2 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		EAEC926729B969B800A50DF2 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		EAEC926A29B9F49F00A50DF2 /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
+		EAEC926C29B9FBDA00A50DF2 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		EAEC926F29BA008300A50DF2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B6E8B6B9228B63A11EE1AF /* Pods_Foodie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B95C29D6EE8E6F7B93EA9FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				311739D39D6E245B48DE056A /* Pods_Foodie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EAEC923429B8E59000A50DF2 = {
 			isa = PBXGroup;
 			children = (
 				EAEC923F29B8E59000A50DF2 /* Foodie */,
 				EAEC923E29B8E59000A50DF2 /* Products */,
+				EC63BF21B66046F1E12857EE /* Pods */,
+				2B95C29D6EE8E6F7B93EA9FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				EAEC925D29B9104400A50DF2 /* OnboardingSlide.swift */,
+				EAEC926A29B9F49F00A50DF2 /* DishCategory.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -98,6 +124,8 @@
 		EAEC925629B8F06C00A50DF2 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				EAEC926E29BA006400A50DF2 /* CardView */,
+				EAEC926429B9691A00A50DF2 /* CollectionViewCells */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -115,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				EAEC925B29B90E7E00A50DF2 /* UIView+Extension.swift */,
+				EAEC926C29B9FBDA00A50DF2 /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -127,6 +156,40 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		EAEC926429B9691A00A50DF2 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC926529B9697400A50DF2 /* CategoryCollectionViewCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		EAEC926529B9697400A50DF2 /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC926629B969B800A50DF2 /* CategoryCollectionViewCell.swift */,
+				EAEC926729B969B800A50DF2 /* CategoryCollectionViewCell.xib */,
+			);
+			path = CategoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		EAEC926E29BA006400A50DF2 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC926F29BA008300A50DF2 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		EC63BF21B66046F1E12857EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49B9F13B0912227DD58FEAB8 /* Pods-Foodie.debug.xcconfig */,
+				33E13BE6ADCA88567B357BE7 /* Pods-Foodie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAEC925129B8E59200A50DF2 /* Build configuration list for PBXNativeTarget "Foodie" */;
 			buildPhases = (
+				47A54A84C2C2B58003272848 /* [CP] Check Pods Manifest.lock */,
 				EAEC923929B8E59000A50DF2 /* Sources */,
 				EAEC923A29B8E59000A50DF2 /* Frameworks */,
 				EAEC923B29B8E59000A50DF2 /* Resources */,
+				A5B52D2722414277FCA604A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEC926929B969B800A50DF2 /* CategoryCollectionViewCell.xib in Resources */,
 				EAEC924D29B8E59200A50DF2 /* LaunchScreen.storyboard in Resources */,
 				EAEC924A29B8E59200A50DF2 /* Assets.xcassets in Resources */,
 				EAEC924829B8E59100A50DF2 /* Main.storyboard in Resources */,
@@ -193,17 +259,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47A54A84C2C2B58003272848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foodie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B52D2722414277FCA604A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodie/Pods-Foodie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodie/Pods-Foodie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foodie/Pods-Foodie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EAEC923929B8E59000A50DF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEC926829B969B800A50DF2 /* CategoryCollectionViewCell.swift in Sources */,
 				EAEC925E29B9104400A50DF2 /* OnboardingSlide.swift in Sources */,
 				EAEC924129B8E59000A50DF2 /* AppDelegate.swift in Sources */,
 				EAEC924329B8E59000A50DF2 /* SceneDelegate.swift in Sources */,
 				EAEC925C29B90E7E00A50DF2 /* UIView+Extension.swift in Sources */,
 				EAEC925929B8F0BD00A50DF2 /* OnboardingViewController.swift in Sources */,
 				EAEC926329B9635200A50DF2 /* HomeViewController.swift in Sources */,
+				EAEC926B29B9F49F00A50DF2 /* DishCategory.swift in Sources */,
+				EAEC926D29B9FBDA00A50DF2 /* String+Extension.swift in Sources */,
+				EAEC927029BA008300A50DF2 /* CardView.swift in Sources */,
 				EAEC926029B914FA00A50DF2 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +458,7 @@
 		};
 		EAEC925229B8E59200A50DF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B9F13B0912227DD58FEAB8 /* Pods-Foodie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -373,6 +486,7 @@
 		};
 		EAEC925329B8E59200A50DF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E13BE6ADCA88567B357BE7 /* Pods-Foodie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
