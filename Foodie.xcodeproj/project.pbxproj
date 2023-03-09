@@ -16,6 +16,7 @@
 		EAEC925C29B90E7E00A50DF2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC925B29B90E7E00A50DF2 /* UIView+Extension.swift */; };
 		EAEC925E29B9104400A50DF2 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC925D29B9104400A50DF2 /* OnboardingSlide.swift */; };
 		EAEC926029B914FA00A50DF2 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC925F29B914FA00A50DF2 /* OnboardingCollectionViewCell.swift */; };
+		EAEC926329B9635200A50DF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC926229B9635200A50DF2 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EAEC925B29B90E7E00A50DF2 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		EAEC925D29B9104400A50DF2 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		EAEC925F29B914FA00A50DF2 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		EAEC926229B9635200A50DF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		EAEC925529B8F06200A50DF2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EAEC926129B9633400A50DF2 /* Home */,
 				EAEC925729B8F07F00A50DF2 /* Onboarding */,
 			);
 			path = Views;
@@ -114,6 +117,14 @@
 				EAEC925B29B90E7E00A50DF2 /* UIView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EAEC926129B9633400A50DF2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC926229B9635200A50DF2 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 				EAEC924329B8E59000A50DF2 /* SceneDelegate.swift in Sources */,
 				EAEC925C29B90E7E00A50DF2 /* UIView+Extension.swift in Sources */,
 				EAEC925929B8F0BD00A50DF2 /* OnboardingViewController.swift in Sources */,
+				EAEC926329B9635200A50DF2 /* HomeViewController.swift in Sources */,
 				EAEC926029B914FA00A50DF2 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
