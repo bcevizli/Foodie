@@ -28,6 +28,7 @@
 		EAEC927729BA2AF100A50DF2 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC927629BA2AF100A50DF2 /* Dish.swift */; };
 		EAEC927B29BA386800A50DF2 /* DishLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC927929BA386800A50DF2 /* DishLandscapeCollectionViewCell.swift */; };
 		EAEC927C29BA386800A50DF2 /* DishLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEC927A29BA386800A50DF2 /* DishLandscapeCollectionViewCell.xib */; };
+		EAEC927F29BA4E7100A50DF2 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC927E29BA4E7100A50DF2 /* DishDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		EAEC927629BA2AF100A50DF2 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		EAEC927929BA386800A50DF2 /* DishLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
 		EAEC927A29BA386800A50DF2 /* DishLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
+		EAEC927E29BA4E7100A50DF2 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		EAEC925529B8F06200A50DF2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EAEC927D29BA4E4700A50DF2 /* DishDetail */,
 				EAEC926129B9633400A50DF2 /* Home */,
 				EAEC925729B8F07F00A50DF2 /* Onboarding */,
 			);
@@ -210,6 +213,14 @@
 				EAEC927A29BA386800A50DF2 /* DishLandscapeCollectionViewCell.xib */,
 			);
 			path = DishLandscapeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		EAEC927D29BA4E4700A50DF2 /* DishDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC927E29BA4E7100A50DF2 /* DishDetailViewController.swift */,
+			);
+			path = DishDetail;
 			sourceTree = "<group>";
 		};
 		EC63BF21B66046F1E12857EE /* Pods */ = {
@@ -345,6 +356,7 @@
 				EAEC924329B8E59000A50DF2 /* SceneDelegate.swift in Sources */,
 				EAEC925C29B90E7E00A50DF2 /* UIView+Extension.swift in Sources */,
 				EAEC925929B8F0BD00A50DF2 /* OnboardingViewController.swift in Sources */,
+				EAEC927F29BA4E7100A50DF2 /* DishDetailViewController.swift in Sources */,
 				EAEC926329B9635200A50DF2 /* HomeViewController.swift in Sources */,
 				EAEC926B29B9F49F00A50DF2 /* DishCategory.swift in Sources */,
 				EAEC927B29BA386800A50DF2 /* DishLandscapeCollectionViewCell.swift in Sources */,
