@@ -39,6 +39,8 @@
 		EAEC929729BA6BBD00A50DF2 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929629BA6BBD00A50DF2 /* Route.swift */; };
 		EAEC929929BA6C4500A50DF2 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929829BA6C4500A50DF2 /* Method.swift */; };
 		EAEC929B29BB49D600A50DF2 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929A29BB49D600A50DF2 /* AppError.swift */; };
+		EAEC929D29BB5DD900A50DF2 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929C29BB5DD900A50DF2 /* APIResponse.swift */; };
+		EAFF5EA829BB86360045D62D /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF5EA729BB86360045D62D /* AllDishes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		EAEC929629BA6BBD00A50DF2 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Route.swift; path = ../../../../Downloads/Route.swift; sourceTree = "<group>"; };
 		EAEC929829BA6C4500A50DF2 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		EAEC929A29BB49D600A50DF2 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		EAEC929C29BB5DD900A50DF2 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		EAFF5EA729BB86360045D62D /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 				EAEC926A29B9F49F00A50DF2 /* DishCategory.swift */,
 				EAEC927629BA2AF100A50DF2 /* Dish.swift */,
 				EAEC929129BA66F700A50DF2 /* Order.swift */,
+				EAFF5EA729BB86360045D62D /* AllDishes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				EAEC929629BA6BBD00A50DF2 /* Route.swift */,
 				EAEC929829BA6C4500A50DF2 /* Method.swift */,
 				EAEC929A29BB49D600A50DF2 /* AppError.swift */,
+				EAEC929C29BB5DD900A50DF2 /* APIResponse.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -428,6 +434,7 @@
 				EAEC926829B969B800A50DF2 /* CategoryCollectionViewCell.swift in Sources */,
 				EAEC925E29B9104400A50DF2 /* OnboardingSlide.swift in Sources */,
 				EAEC924129B8E59000A50DF2 /* AppDelegate.swift in Sources */,
+				EAFF5EA829BB86360045D62D /* AllDishes.swift in Sources */,
 				EAEC924329B8E59000A50DF2 /* SceneDelegate.swift in Sources */,
 				EAEC929929BA6C4500A50DF2 /* Method.swift in Sources */,
 				EAEC925C29B90E7E00A50DF2 /* UIView+Extension.swift in Sources */,
@@ -444,6 +451,7 @@
 				EAEC929B29BB49D600A50DF2 /* AppError.swift in Sources */,
 				EAEC926029B914FA00A50DF2 /* OnboardingCollectionViewCell.swift in Sources */,
 				EAEC927729BA2AF100A50DF2 /* Dish.swift in Sources */,
+				EAEC929D29BB5DD900A50DF2 /* APIResponse.swift in Sources */,
 				EAEC927429BA289600A50DF2 /* DishPortraitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
