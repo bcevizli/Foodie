@@ -41,6 +41,7 @@
 		EAEC929B29BB49D600A50DF2 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929A29BB49D600A50DF2 /* AppError.swift */; };
 		EAEC929D29BB5DD900A50DF2 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929C29BB5DD900A50DF2 /* APIResponse.swift */; };
 		EAFF5EA829BB86360045D62D /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF5EA729BB86360045D62D /* AllDishes.swift */; };
+		EAFF5EAA29BBD9380045D62D /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF5EA929BBD9380045D62D /* UserDefaults+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		EAEC929A29BB49D600A50DF2 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		EAEC929C29BB5DD900A50DF2 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		EAFF5EA729BB86360045D62D /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
+		EAFF5EA929BBD9380045D62D /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				EAEC925B29B90E7E00A50DF2 /* UIView+Extension.swift */,
 				EAEC926C29B9FBDA00A50DF2 /* String+Extension.swift */,
 				EAEC928029BA515200A50DF2 /* UIViewController+Extension.swift */,
+				EAFF5EA929BBD9380045D62D /* UserDefaults+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				EAEC926029B914FA00A50DF2 /* OnboardingCollectionViewCell.swift in Sources */,
 				EAEC927729BA2AF100A50DF2 /* Dish.swift in Sources */,
 				EAEC929D29BB5DD900A50DF2 /* APIResponse.swift in Sources */,
+				EAFF5EAA29BBD9380045D62D /* UserDefaults+Extension.swift in Sources */,
 				EAEC927429BA289600A50DF2 /* DishPortraitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,7 +608,6 @@
 				INFOPLIST_FILE = Foodie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -632,7 +635,6 @@
 				INFOPLIST_FILE = Foodie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
