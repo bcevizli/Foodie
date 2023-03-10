@@ -38,6 +38,7 @@
 		EAEC929529BA6B3B00A50DF2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929429BA6B3B00A50DF2 /* NetworkService.swift */; };
 		EAEC929729BA6BBD00A50DF2 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929629BA6BBD00A50DF2 /* Route.swift */; };
 		EAEC929929BA6C4500A50DF2 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929829BA6C4500A50DF2 /* Method.swift */; };
+		EAEC929B29BB49D600A50DF2 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC929A29BB49D600A50DF2 /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		EAEC929429BA6B3B00A50DF2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		EAEC929629BA6BBD00A50DF2 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Route.swift; path = ../../../../Downloads/Route.swift; sourceTree = "<group>"; };
 		EAEC929829BA6C4500A50DF2 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		EAEC929A29BB49D600A50DF2 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +288,7 @@
 				EAEC929429BA6B3B00A50DF2 /* NetworkService.swift */,
 				EAEC929629BA6BBD00A50DF2 /* Route.swift */,
 				EAEC929829BA6C4500A50DF2 /* Method.swift */,
+				EAEC929A29BB49D600A50DF2 /* AppError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				EAEC926D29B9FBDA00A50DF2 /* String+Extension.swift in Sources */,
 				EAEC927029BA008300A50DF2 /* CardView.swift in Sources */,
 				EAEC928C29BA5A6700A50DF2 /* ListDishesViewController.swift in Sources */,
+				EAEC929B29BB49D600A50DF2 /* AppError.swift in Sources */,
 				EAEC926029B914FA00A50DF2 /* OnboardingCollectionViewCell.swift in Sources */,
 				EAEC927729BA2AF100A50DF2 /* Dish.swift in Sources */,
 				EAEC927429BA289600A50DF2 /* DishPortraitCollectionViewCell.swift in Sources */,

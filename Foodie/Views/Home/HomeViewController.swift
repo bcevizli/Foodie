@@ -39,9 +39,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let service = NetworkService()
-        let request = service.createRequest(route: .temp, method: .get, parameters: ["firstName": "Burak", "lastName": "Cevizli"])
-        print("The URL is: \(request?.url)")
+        NetworkService.shared.myFirstRequest()
         
         specialsCollectionView.delegate = self
         specialsCollectionView.dataSource = self
