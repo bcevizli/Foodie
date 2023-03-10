@@ -10,5 +10,6 @@ target 'Foodie' do
   pod 'ProgressHUD', :git =>
       'https://github.com/relatedcode/ProgressHUD.git', :commit =>
       '83c3801e9aa69be157a47c40cdd8702bfaf29213'
+  pod "IQKeyboardManagerSwift"
 
 end
